@@ -1,1 +1,46 @@
+.a{
+    height: 40px;
+    background-color: red;
 
+}
+
+.b{
+    height: 40px;
+    background-color:yellow;
+
+}
+
+.c{
+    height: 40px;
+    background-color: aquamarine;
+}
+
+@media(max-width:500px)
+{
+    .a{
+        background-color: violet;
+    }
+    .b{
+        background-color: blue;
+    }
+    .c{
+        background-color: orange;
+    }
+}
+
+.nav-logo{
+    margin-right: 20px;
+}
+  .map-container-6{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        }
+        .map-container-6 iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+        }
